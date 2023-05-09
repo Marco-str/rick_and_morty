@@ -1,0 +1,13 @@
+.div{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: space-between;
+    
+    align-items: flex-start
+
+    
+
+
+}

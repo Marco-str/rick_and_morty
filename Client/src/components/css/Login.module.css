@@ -1,0 +1,48 @@
+
+  
+  .loginboxh2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+
+    --glow-color: rgb(176, 255, 209);
+    --glow-spread-color: rgba(123, 255, 143, 0.781);
+    --enhanced-glow-color: rgb(206, 255, 239);
+    --btn-color: rgb(65, 136, 61);
+
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+                0 0 20em 2em var(--glow-spread-color),
+                inset 0 0 .2em .25em var(--glow-color)
+  }
+
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color:  rgba(18, 46, 22, 0.781);
+    
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+/* 
+
+.login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  } */
